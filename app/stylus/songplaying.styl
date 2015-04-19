@@ -1,0 +1,217 @@
+/*Vars*/
+gris_claro = #818181
+gris_oscuro = #333
+fucsia = #cc2f6f
+
+/*SonPlaying COMPONENT*/
+.SongPlaying
+	text-align center
+
+.SongPlaying-imageContainer
+	margin 0
+
+.SongPlaying-image
+	cursor pointer
+	vertical-align top	
+	width 100%
+
+.SongPlaying-otherActions
+	background rgba(black, .3)
+	bottom 0
+	font-size 1.7rem
+	left 0
+	padding .6rem 1.7rem 
+	position absolute
+	right 0
+	text-align right
+	
+.SongPlaying-otherAction
+	color #fff
+	margin-right .6rem
+	&:last-child
+		margin-right 0
+
+.SongPlaying-info
+	padding 1.2rem
+
+.SongPlaying-description
+	border-bottom 1px solid gris_claro
+
+.SongPlaying-title
+	color gris_oscuro
+	font-weight normal
+	margin-bottom .1em
+	margin-top 0
+	
+.SongPlaying-author
+	color gris_claro	
+	margin-top 0
+
+.SongPlaying-actions
+	margin-top .7rem
+	padding .5rem 1rem
+	
+.SongPlaying-action
+	color gris_claro
+	margin-right 1.3rem
+	&:last-child
+		margin-right 0			
+
+.SongPlaying-currentSongLargeInfo
+	border-bottom 1px solid gris_oscuro
+
+
+/*ProgressInfo MODULE*/
+.ProgressInfo
+	margin-top 1.4rem		
+
+.ProgressInfo-totalBar
+	background gris_claro
+	display inline-block
+	height .18rem
+	margin 0 .4rem
+	vertical-align middle
+	width 60%
+
+/*Animation With KeyFrames in Mixin Example*/
+// animacion(d,n,f)
+// 	-webkit-animation d n f
+// 	-o-animation d n f
+// 	-ms-animation d n f
+// 	-moz-animation d n f
+// 	animation d n f
+	
+// 	@keyframes n
+// 		0%
+// 			background brown
+// 		100%
+// 			background orange
+
+.ProgressInfo-stateBar
+	/*Mixin Call Example*/
+	// animacion(1s,state,infinite)
+	// animation 10s progress 1 linear
+	background fucsia
+	height .18rem
+	width 0%
+
+@keyframes progress
+	0%
+		width 0
+	
+	49%
+		background fucsia
+	
+	50%
+		background white
+	
+	51%
+		background fucsia				
+
+	100%
+		width 100%				
+			
+
+.ProgressInfo-totalBar
+.ProgressInfo-stateBar	
+	border-radius 10px
+	
+.ProgressInfo-circle
+	// animation 1s puls 10
+	background gris_oscuro
+	border-radius 50%
+	display block
+	height 0.6rem
+	position absolute
+	right 0
+	top -3px
+	width 0.6rem
+	
+@keyframes puls
+	0%
+		opacity 1
+		transform scale(1)
+	100%
+		opacity 0
+		transform scale(1.4)	
+	
+.ProgressInfo-max
+.ProgressInfo-min
+	color gris_claro
+	font-size .8rem
+	
+/*PlaylistPrev COMPONENT*/	
+.PlaylistPrev
+	float left
+	padding 0 2.4rem
+	width 27rem
+	/*Taking advantage of the part
+	SongPlaying-description of the
+	SongPlaying COMPONENT - OOCSS -
+	Reuse*/
+	& .SongPlaying-description
+		display block
+		
+.PlaylistPrev-list
+	list-style none
+	margin 0
+	overflow hidden
+	padding 0
+	
+.PlaylistPrev-listItem
+	position relative
+	animation .5s showSongs 1 ease
+	
+@keyframes showSongs
+	0%
+		opacity 0
+		
+	100%
+		opacity 1	
+		
+
+.PlaylistPrev-songLink
+	border-bottom 1px solid gris_claro
+	color gris_oscuro
+	display block
+	padding 1.4rem 0
+	
+.PlaylistPrev-actions
+	display inline-block
+	margin-top -0.5rem
+	position absolute
+	right 0
+	top 50%
+	
+.PlaylistPrev-action
+	color gris_claro
+	margin-right .3rem
+	&:last-child
+		margin-right 0
+
+/*<¡HIDDEN OBJECTS!>*/
+.PlaylistPrev
+	display none
+	
+.Audio
+	display none				
+			
+@media screen and (min-width:1000px)
+	
+	/*SongPlaying COMPONENT*/
+	.SongPlaying
+		border-right 1px solid gris_claro
+		padding 0 3rem
+		&.large
+			float left
+			width 23rem
+	
+	.SongPlaying-description
+		display none
+	
+	/*PlaylistPrev COMPONENT*/	
+	.PlaylistPrev
+		display block	
+
+		
+									

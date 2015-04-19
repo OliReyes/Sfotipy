@@ -1,0 +1,113 @@
+/*Vars*/
+gris_claro = #818181
+gris_oscuro = #333
+gris_muy_claro = #f3f3f3
+
+/*Header COMPONENT*/
+.Header
+	border-bottom 1px solid gris_claro
+	height 3.75rem
+	text-align center
+	
+.Header-title
+	font-size 1.5rem
+	font-weight normal
+	line-height 3.75rem
+	margin 0
+	
+.Header-menuButton
+	color gris_oscuro
+	font-size 1.5rem
+	left 0		
+	margin-left 1.4rem
+	margin-top -.75rem
+	position absolute
+	top 50%
+	
+	
+/*Logo MODULE*/
+.Logo
+	float left
+	height 38px
+	margin 0
+	width 122px
+
+/*Search & Avatar MODULE*/
+.Search
+.Avatar		
+	float right
+	
+.Avatar-imageContainer
+	border-radius 50%
+	height 45px
+	margin 0
+	overflow hidden
+	width 45px
+	
+.Avatar-image
+	height auto	
+
+.Avatar-description
+.Avatar-imageContainer
+	display inline-block
+	vertical-align middle
+
+.Avatar-description
+	color gris_claro
+	margin-left .3rem
+	&::after
+		border-left .4rem solid transparent
+		border-right .4rem solid transparent
+		border-top .5rem solid gris_claro
+		content ""
+		display inline-block			
+
+.Search
+	margin-right 2rem		
+
+.Search-input
+	border 1px solid gris_claro
+	border-radius 6px
+	padding .7rem 1.4rem .7rem 2.2rem 
+	
+.Search-iconSearch
+	color gris_claro
+	left .7rem
+	position absolute
+	top .7rem
+	
+.Search-iconClose
+	color gris_claro
+	font-size 1.5rem	
+	position absolute
+	right .7rem
+	top .2rem
+
+/*<¡HIDDEN OBJECTS!>*/
+.Avatar			
+.Logo
+.Search
+	display none		
+
+	
+@media screen and (min-width:1000px)
+
+	.Header
+		background white
+		height auto
+		padding 1.3rem
+		text-align left
+
+	.Header-menuButton
+	.Header-title
+		display none
+	
+	/*<SHOWN MODULES!>*/
+	.Avatar			
+	.Logo
+	.MainMenu
+	.Search
+		display block				
+			
+
+		

@@ -1,0 +1,156 @@
+{
+  "Girl": {
+    "author": "Pharrel Williams",
+    "cover": "images/albums/girl.jpg",
+    "year": 2014,
+    "songs": [
+      {
+        "name": "Happy",
+        "src":"http://www.olireyes.com/http://www.olireyes.com/static/media/audio/Girl/happy.mp3"
+      },      
+      {
+        "name": "Marilyn Monroe",
+        "src":"http://www.olireyes.com/static/media/audio/Girl/marilyn-monroe.mp3"
+      },
+      {
+        "name": "Brand New",
+        "src":"http://www.olireyes.com/static/media/audio/Girl/brand-new.mp3"
+      },
+      {
+        "name": "Hunter",
+        "src":"http://www.olireyes.com/static/media/audio/Girl/hunter.mp3"
+      },
+      {
+        "name": "Gush",
+        "src":"http://www.olireyes.com/static/media/audio/Girl/gush.mp3"
+      },
+      {
+        "name": "Come Get it Bae",
+        "src":"http://www.olireyes.com/static/media/audio/Girl/come-get-it-bae.mp3"
+      }
+    ]
+  },
+  "Nothing was the same": {
+    "author": "Drake",
+    "cover": "images/albums/nothing-was-the-same.jpg",
+    "year": 2013,
+    "songs": [
+      {
+        "name": "Started from the Bottom",
+        "src":"http://www.olireyes.com/static/media/audio/Nothing was the same/started-from-the-bottom.mp3"
+      },
+       {
+        "name": "From Time",
+        "src":"http://www.olireyes.com/static/media/audio/Nothing was the same/from-time.mp3"
+      },
+      {
+        "name": "Worst Behavior",
+        "src":"http://www.olireyes.com/static/media/audio/Nothing was the same/worst-behavior.mp3"
+      },
+      {
+        "name": "Pound Cake / Paris Morton Music 2",
+        "src":"http://www.olireyes.com/static/media/audio/Nothing was the same/pound-cake.mp3"
+      },
+      {
+        "name": "Hold On, We're Going Home",
+        "src":"http://www.olireyes.com/static/media/audio/Nothing was the same/hold-on-we-are-going-home.mp3"
+      },
+      {
+        "name": "0 To 100",
+        "src":"http://www.olireyes.com/static/media/audio/Nothing was the same/0-to-100.mp3"
+
+      }
+    ]
+  },
+  "Random Access Memories": {
+    "author": "Daft Punk",
+    "cover": "images/albums/random-access-memories.jpg",
+    "year": 2013,
+    "songs": [
+      {
+        "name": "Get Lucky",
+        "src":"http://www.olireyes.com/static/media/audio/Random Access Memories/get-lucky.mp3"
+      },
+      {
+        "name": "Giorgio By Moroder",
+        "src":"http://www.olireyes.com/static/media/audio/Random Access Memories/giorgio.mp3"
+      },
+      {
+        "name": "Give Life Back To Music",
+        "src":"http://www.olireyes.com/static/media/audio/Random Access Memories/give-life-back-to-music.mp3"
+      },
+      {
+        "name": "Lose Yourself To Dance",
+        "src":"http://www.olireyes.com/static/media/audio/Random Access Memories/lose-yourself-to-dance.mp3"
+      },
+      {
+        "name": "The Game Of Love",
+        "src":"http://www.olireyes.com/static/media/audio/Random Access Memories/the-game-of-love.mp3"
+      },
+      {
+        "name": "Contact",
+        "src":"http://www.olireyes.com/static/media/audio/Random Access Memories/contact.mp3"
+
+      },
+      {
+        "name": "Doin' It Right",
+        "src":"http://www.olireyes.com/static/media/audio/Random Access Memories/doing-it-right.mp3"
+
+      }
+    ]
+  },
+  "Walking on a dream": {
+    "author": "Empire of the sun",
+    "cover": "images/albums/walking-on-a-dream.jpg",
+    "year": 2008,
+    "songs": [
+      {
+        "name": "Standing On The Shore",
+        "src":"http://www.olireyes.com/static/media/audio/Walking on a dream/standing-on-the-shore.mp3"
+      },
+      {
+        "name": "Walking on a dream",
+        "src":"http://www.olireyes.com/static/media/audio/Walking on a dream/walking-on-a-dream.mp3"
+      },
+      {
+        "name": "We Are The People",
+        "src":"http://www.olireyes.com/static/media/audio/Walking on a dream/we-are-the-people.mp3"
+      },
+      {
+        "name": "Without You",
+        "src":"http://www.olireyes.com/static/media/audio/Walking on a dream/without-you.mp3"
+      },
+      {
+        "name": "Delta Bay",
+        "src":"http://www.olireyes.com/static/media/audio/Walking on a dream/delta-bay.mp3"
+      }
+    ]
+  },
+  "Plastic Beach": {
+    "author": "Gorillaz",
+    "cover": "images/albums/plastic-beach.jpg",
+    "year": 2010,
+    "songs": [
+      {
+        "name": "Welcome to the World of the Plastic Beach",
+        "src":"http://www.olireyes.com/static/media/audio/Plastic Beach/welcome.mp3"
+      },
+      {
+        "name": "Broken",
+        "src":"http://www.olireyes.com/static/media/audio/Plastic Beach/broken.mp3"
+      },
+      {
+        "name": "Empire Ants ft. Little Dragon",
+        "src":"http://www.olireyes.com/static/media/audio/Plastic Beach/empire-ants.mp3"
+      },
+      {
+        "name": "Rhinestone Eyes",
+        "src":"http://www.olireyes.com/static/media/audio/Plastic Beach/rhinestone-eyes.mp3"
+      },
+      {
+        "name": "Stylo",
+        "src":"http://www.olireyes.com/static/media/audio/Plastic Beach/stylo.mp3"
+      }
+    ]
+  }
+}

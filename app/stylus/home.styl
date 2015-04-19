@@ -1,0 +1,235 @@
+/*Vars*/
+azul_facebook = #3D5A98
+azul_twitter = #5FA9DD
+gris_oscuro = #333
+gris_claro = #818181
+gris_muy_claro = #f3f3f3
+fucsia = #cc2f6f
+
+/*HeaderHome COMPONENT*/
+
+.Home
+	/*Temporary*/
+	display none
+	
+.HeaderHome
+	text-align center
+	padding 3rem 0 5rem 0
+	
+/*LogoMobile MODULE*/
+.LogoHome
+	width 193px
+	height 60px
+	margin 0 auto
+
+/*Slogan MODULE*/	
+.Slogan
+	font-size 1.4rem
+	color white
+	font-weight 400
+	margin 3rem 0
+	padding 0 2rem
+
+/*LoginSocial MODULE*/
+.LoginSocial 
+	margin 0 auto	
+
+.LoginSocial-facebook
+.LoginSocial-twitter
+	display block
+	margin 0 auto
+	width 14rem
+	padding 1.1rem .5rem 1.1rem 3.4rem
+	border-radius 3px
+	color white
+	font-size .8rem
+	position relative
+	box-sizing border-box
+	& span::before
+		font-size 1.5rem
+		position absolute
+		display block
+		top 50%
+		left .7rem
+		margin-top -0.5em
+		padding-right .8rem
+		border-right 2px solid rgba(black,.3)
+	
+.LoginSocial-facebook
+	background azul_facebook
+	margin-bottom .5rem
+	border 1px solid azul_facebook			
+
+.LoginSocial-twitter
+	background azul_twitter
+	border 1px solid azul_twitter
+
+/*NormalAccess MODULE*/	
+.NormalAccess
+	padding .8rem .8rem 3rem
+	font-size 0
+	text-align center
+	
+.NormalAccess-login
+.NormalAccess-signUp
+	color gris_claro = #818181
+	text-decoration underline
+	font-size .8rem
+	display inline-block
+	width 50%
+	box-sizing border-box
+	padding .8em					
+
+.NormalAccess-login
+	border-right 1px solid gris_claro	
+
+/*HomeAdvertising COMPONENT*/
+.HomeAdvertising
+	text-align center
+	
+.HomeAdvertising-item
+	padding-bottom 1.4rem	
+	
+.HomeAdvertising-imageContainer
+	margin 0 auto
+	max-width 672px
+	
+.HomeAdvertising-image
+	width 100%
+	height auto
+
+.HomeAdvertising-title
+	color gris_oscuro
+
+.HomeAdvertising-description
+	color gris_claro
+	padding 0 2rem
+						
+.HomeAdvertising-link
+	color gris_claro
+	font-size 1.2rem
+	padding 2rem 1rem
+	display block
+	margin 0 1rem
+	border-top 1px solid gris_claro
+
+.HomeFooter
+	background gris_oscuro
+	padding .8rem
+	text-align right
+	overflow hidden	
+
+.HomeFooter-logo
+	width 65px
+	height 20px
+	margin 0
+	float left
+
+.HomeFooter-logoImage
+	vertical-align bottom
+	
+.HomerFooter-link
+	color white
+	text-decoration underline
+	font-size .9rem
+	margin 0 .2rem
+	
+.Home-advertisingImageContainer
+	margin 0
+	height 138px
+	overflow hidden
+	
+/*<¡Hidden OBJECTS!>*/	
+.HeaderHome-loginLink
+.HeaderHome-signUp	
+	display none		
+	
+					
+
+@media screen and (min-width:480px)
+
+	.Home-advertisingImageContainer
+		height 282px
+		
+	.NormalAccess
+	.HomeAdvertising
+		background gris_muy_claro
+		
+	.HomeAdvertising-link
+		display none
+		
+	.HomeFooter
+		text-align left
+	
+	.HomeFooter-logo
+		margin-right 1rem
+		
+@media screen and (min-width:1000px)
+
+	// body
+	// 	background white
+
+	.HeaderHome
+		&.large
+			padding-top 1.3rem
+			
+	.LogoHome
+		&.large
+			margin 0
+			
+	.Slogan
+		margin-top 4rem				
+		
+	
+	.NormalAccess
+		display none
+		
+	.HomeAdvertising
+		margin-top 2rem
+		background white
+		padding 2rem
+		
+	.HomeAdvertising-item
+		overflow hidden
+		&:nth-child(even)
+			& .HomeAdvertising-imageContainer
+			  .HomeAdvertising-info 	
+				float right
+
+
+	.HomeAdvertising-imageContainer
+		width 300px
+		height 300px
+		float left
+		border-radius 50%
+		overflow hidden
+		
+	.HomeAdvertising-image
+		width 451px
+		height 306px	
+			
+	
+	.HomeAdvertising-info
+		width 60%
+		float left
+		
+	.HomeAdvertising-title
+		font-size 2.2rem
+		
+	.HomeAdvertising-description
+		font-size 2rem			
+		
+	.HeaderHome-loginLink
+		display block
+		float right
+		color fucsia
+		text-decoration underline
+		
+	.HeaderHome-signUp
+		margin-top 1rem
+		display block
+		color white
+	
+	.HeaderHome-signUpLink
+		color fucsia		
+		text-decoration underline

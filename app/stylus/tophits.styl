@@ -1,0 +1,49 @@
+/*Vars*/
+gris_oscuro = #333
+gris_claro = #818181
+
+/*TopHits COMPONENT*/
+.TopHits
+	/*Temporary*/
+	font-size 0
+	padding 1.5rem
+	text-align center
+
+.TopHits-songItem
+	animation .5s showAlbums 1 ease
+	cursor pointer
+	display inline-block
+	font-size 1rem
+	margin-bottom 2rem
+	margin-right 1rem
+	text-align left
+	vertical-align top
+	width 8rem
+	&:nth-child(even)
+		margin-right 0
+	
+@keyframes showAlbums
+	0%
+		opacity 0			
+
+	100%
+		opacity 1		
+
+.TopHits-songInfoContainer
+	margin 0
+	width 128px
+	
+.TopHits-songTitle
+	color gris_oscuro
+	font-weight normal
+	margin-bottom .1em
+	
+.TopHits-songAuthor
+	color gris_claro	
+	margin-top 0
+	
+@media screen and (min-width:480px)	
+
+	.TopHits-songItem
+		&:nth-child(even)
+			margin-right 1rem

@@ -1,0 +1,41 @@
+/*Vars*/
+gris_oscuro = #333
+fucsia = #cc2f6f
+
+/*MainMenu COMPONENT*/
+.MainMenu
+	margin-bottom 1rem
+	
+.MainMenu-list
+	list-style none
+	margin 0
+	overflow hidden
+	padding 0
+
+.MainMenu-listItem
+	float left
+
+.MainMenu-link
+	border-top .4rem solid transparent
+	color gris_oscuro
+	display block
+	padding 1rem
+	transition .3s border-top ease
+	text-transform uppercase
+	&:hover
+		border-top .4rem solid gris_oscuro
+	&:active
+		border-top .4rem solid fucsia
+	&.current
+		border-top .4rem solid gris_oscuro		
+				
+/*<¡HIDDEN OBJECTS!>*/
+.MainMenu
+	display none
+	
+
+@media screen and (min-width:1000px)
+	
+	/*<SHOWN MODULES!>*/
+	.MainMenu
+		display block			
