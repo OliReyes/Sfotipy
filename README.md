@@ -1,5 +1,5 @@
 # Sfotipy
-Musical Web Application. Listen to all the music you love, everywhere.
+Musical WEB app. Listen to all the music you love, everywhere.
 
 1. With your command prompt open the folder of the Sfotipy project.
 
