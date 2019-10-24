@@ -12,3 +12,5 @@ npm install
 ```
 npm start
 ```
+
+Find the app running in localhost:9000
